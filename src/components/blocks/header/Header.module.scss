@@ -1,0 +1,97 @@
+@import './../styles/mixins.scss';
+
+.header {
+
+
+   .conteiner {
+      border: 2px solid;
+
+      padding: 0 15px;
+
+      @media screen and (min-width:576px) {
+         padding: 0 35px;
+      }
+
+      @media screen and (min-width:768px) {
+         padding: 0 50px;
+      }
+
+      @media screen and (min-width:1280px) {
+         padding: 0 0 0 70px;
+      }
+
+      @media screen and (min-width:1440px) {
+         padding: 0 0 0 150px;
+      }
+
+      @media screen and (min-width:1920px) {
+         padding: 0 0 0 390;
+      }
+
+      .inner {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+         height: 60px;
+
+         @media screen and (min-width:768px) {
+            height: 100px;
+         }
+
+
+
+         .headerLeft {
+            @media screen and (min-width:576px) {
+               display: flex;
+               align-items: center;
+            }
+
+            .logo {
+               margin-right: 45px;
+
+               width: 84px;
+               height: 15px;
+
+               @media screen and (min-width:576px) {
+                  margin-right: 36px;
+               }
+
+               @media screen and (min-width:768px) {
+                  width: 128px;
+                  height: 22px;
+               }
+            }
+
+            .cityLink {
+               @include textEdit(400, 0.875rem, 0.823);
+
+               @media screen and (min-width:576px) {
+                  display: none;
+               }
+
+            }
+
+            .blockLink {
+               display: none;
+
+               a,
+               span {
+                  @include textEdit(400, 0.875rem, 0.823);
+               }
+
+
+               @media screen and (min-width:576px) {
+                  display: block;
+               }
+            }
+         }
+
+         .headerRight {
+            @media screen and (min-width:1280px) {
+               display: none;
+            }
+         }
+      }
+   }
+}

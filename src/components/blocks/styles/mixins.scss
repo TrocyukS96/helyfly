@@ -1,0 +1,5 @@
+@mixin textEdit ($fontWeight, $fontsize, $lineHeight) {
+   font-weight: $fontWeight;
+   font-size: $fontsize;
+   line-height: $lineHeight;
+}
