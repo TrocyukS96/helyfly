@@ -1,0 +1,169 @@
+@import './../styles/mixins.scss';
+@import './../styles/vars.scss';
+
+
+.main {
+   padding-top: 141px;
+   padding-right: 45px;
+   padding-bottom: 154px;
+
+   background: url('./../../../assets/img/helimain.png');
+   background-repeat: no-repeat;
+   background-position: 62% 0;
+   background-size: cover;
+
+   @media screen and (min-width:576px) {
+      background-position: 96% 0;
+      padding-top: 151px;
+      padding-bottom: 145px;
+      padding-right: 270px;
+
+   }
+
+   @media screen and (min-width:768px) {
+      padding-top: 286px;
+      padding-bottom: 259px;
+      padding-right: 80px;
+   }
+
+   @media screen and (min-width:1280px) {
+      padding-right: 310px;
+
+   }
+
+   @media screen and (min-width:1440px) {
+      padding-right: 390px;
+
+      background-position: 96% -47px;
+
+   }
+
+   @media screen and (min-width:1920px) {
+      padding-right: 640px;
+
+      background-position: 71% -168px;
+      background-size: cover;
+
+
+
+
+   }
+
+   .conteiner {
+
+      @extend %conteiner;
+
+      .inner {
+         .title {
+
+
+
+
+            @include textEdit (700, 2rem, 1.1280);
+            color: $primaryColor;
+
+            @media screen and (min-width:768px) {
+               font-size: 2.5rem;
+            }
+
+            span {
+               color: $accentColor;
+            }
+         }
+
+         .priceBlock {
+            margin-top: 36px;
+            margin-bottom: 37px;
+
+            display: flex;
+            align-items: center;
+
+
+            position: relative;
+
+
+            @media screen and (min-width:768px) {
+               margin-top: 20px;
+            }
+
+            &::before {
+               content: "";
+
+               width: 200px;
+               height: 100px;
+
+               background-image: url('./../../../assets/img/icons/priceIcon.png');
+
+               position: absolute;
+               top: 0;
+               left: 0;
+
+               z-index: 9;
+            }
+
+            .priceSub {
+               padding-left: 17px;
+
+               color: $primaryColor;
+               z-index: 10;
+
+               .priceTitle {
+                  padding-top: 9px;
+
+                  @include textEdit (400, 1.125rem, 1.5);
+               }
+
+               .priceNum {
+                  @include textEdit (700, 1.875rem, 1.5);
+               }
+            }
+
+            .pricePercent {
+               margin-left: 7px;
+
+               @include textEdit (800, 1.875rem, 1.5);
+
+               color: $primaryColor;
+
+               z-index: 10;
+
+               position: relative;
+
+               &::before {
+                  content: "%";
+                  width: 47px;
+                  height: 47px;
+                  background-color: transparent;
+                  border: 1px solid $primaryColor;
+                  border-radius: 50%;
+                  -webkit-border-radius: 50%;
+                  -moz-border-radius: 50%;
+                  -ms-border-radius: 50%;
+                  -o-border-radius: 50%;
+
+                  padding: 5px 10px;
+               }
+            }
+         }
+
+         .btn {
+
+
+            width: 275px;
+            height: 68px;
+
+            border: 3px solid $primaryColor;
+            background-color: transparent;
+            border-radius: 7px;
+
+            @include textEdit(900, 1rem, 1.25);
+
+            color: $primaryColor;
+
+            text-align: center;
+         }
+
+
+      }
+   }
+}
