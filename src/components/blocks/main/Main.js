@@ -1,4 +1,3 @@
-import Btn from '../btn/Btn';
 import s from './Main.module.scss';
 
 
