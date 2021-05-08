@@ -19,7 +19,7 @@
          height: 60px;
 
          @media screen and (min-width:768px) {
-            height: 100px;
+            height: 97px;
          }
 
 
@@ -32,18 +32,19 @@
 
             .logo {
                margin-right: 45px;
-
-               width: 84px;
-               height: 15px;
+               transform: translate(0px, 4px);
 
                @media screen and (min-width:576px) {
                   margin-right: 36px;
+                  transform: translate(0px, 2px);
                }
 
                @media screen and (min-width:768px) {
                   width: 128px;
-                  height: 22px;
+                  height: 24px;
+                  transform: translate(1px, -2px);
                }
+
             }
 
             .cityLink {
@@ -57,6 +58,11 @@
 
             .blockLink {
                display: none;
+
+               @media screen and (min-width:1280px) {
+                  transform: translate(3px, -3px);
+
+               }
 
                a,
                span {
