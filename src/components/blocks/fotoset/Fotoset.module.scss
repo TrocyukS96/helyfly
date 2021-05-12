@@ -2,7 +2,7 @@
 @import './../styles/mixins.scss';
 
 .fotoset {
-   margin: 39px 0 60px 0;
+   margin: 39px 0 0px 0;
 
    @media screen and (min-width:768px) {
       margin-top: 65px;
@@ -10,6 +10,8 @@
 
    @media screen and (min-width:1280px) {
       margin-top: 87px;
+
+
    }
 
    .conteiner {
@@ -60,7 +62,7 @@
             grid-area: subscr;
 
             @media screen and (min-width:768px) {
-               margin-top: 45px;
+               margin-top: 47px;
             }
 
             @media screen and (min-width:1280px) {
@@ -74,6 +76,7 @@
                @media screen and (min-width:576px) {
                   font-size: 1.132rem;
                   line-height: 1.5;
+                  max-width: 100%;
 
                }
 
@@ -163,6 +166,10 @@
                   }
 
                   &:last-child {
+                     @media screen and (min-width:1440px) {
+                        margin-bottom: 0;
+                     }
+
                      &::before {
                         content: "";
                         width: 36px;
@@ -210,7 +217,16 @@
 
             @media screen and (min-width:1280px) {
                width: 520px;
+
+               padding: 12px 0 33px 41px;
             }
+
+            @media screen and (min-width:1440px) {
+               width: 562px;
+
+               padding: 24px 0 33px 36px;
+            }
+
 
             &::before {
                content: "";
@@ -271,10 +287,10 @@
             }
 
             @media screen and (min-width:1440px) {
-               transform: translate(-59px, -16px);
+               transform: translate(-58px, -16px);
             }
 
-            @media screen and (min-width:1440px) {
+            @media screen and (min-width:1920px) {
                transform: translate(-175px, -16px);
             }
 

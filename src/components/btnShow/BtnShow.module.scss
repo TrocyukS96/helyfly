@@ -1,0 +1,16 @@
+@import './../blocks/styles/vars.scss';
+@import './../blocks/styles/mixins.scss';
+
+.btnShow {
+   display: block;
+
+   @include textEdit(400, 1.17rem, 1.4);
+
+   color: $linkColor;
+
+   border-style: none;
+
+   background-color: $primaryColor;
+
+
+}
