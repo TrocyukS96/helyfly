@@ -17,6 +17,15 @@
    .conteiner {
       @extend %conteiner;
 
+      @media screen and (min-width:1280px) {
+         padding: 0 70px;
+         margin: 0 auto;
+      }
+
+      @media screen and (min-width:1920px) {
+         padding: 0 0 0 390px;
+      }
+
       .wrap {
          display: grid;
          grid-template-rows: auto auto auto auto;

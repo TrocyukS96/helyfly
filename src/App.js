@@ -3,6 +3,7 @@ import './App.scss';
 import Main from './components/blocks/main/Main';
 import Fotoset from './components/blocks/fotoset/Fotoset';
 import Fotos from './components/blocks/fotos/Fotos';
+import About from './components/blocks/about/About';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Main/>
       <Fotoset/>
       <Fotos/>
+      <About/>
     </div>
   );
 }

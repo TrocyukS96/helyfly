@@ -1,0 +1,78 @@
+@import './../blocks/styles/mixins.scss';
+@import './../blocks/styles/vars.scss';
+
+.card {
+   margin-bottom: 21px;
+
+
+
+   text-align: center;
+
+   @media screen and(min-width:768px) {
+      margin-bottom: 27px;
+   }
+
+   @media screen and(min-width:1280px) {
+      margin-top: 41px;
+      margin-right: 50px;
+   }
+
+   .imgWrap {
+      display: inline-block;
+      position: relative;
+
+      &::after {
+         content: "";
+         width: 31px;
+         height: 27px;
+
+         background-image: url('./../../assets/img/icons/hurt.svg');
+         background-repeat: no-repeat;
+
+         position: absolute;
+         top: -13px;
+         right: -76px;
+
+         @media screen and(min-width:768px) {
+            top: -20px;
+            right: -79px;
+         }
+      }
+   }
+
+
+   .cardImg {
+      transform: translate(-6px, -1px);
+
+      @media screen and(min-width:768px) {
+         transform: translate(2px, -7px);
+
+         font-size: 1.1rem;
+      }
+
+   }
+
+   .cardName {
+      margin-top: 16px;
+
+      @include textEdit(500, 1.25rem, 1.22);
+
+      @media screen and(min-width:768px) {
+         margin-top: 10px;
+
+      }
+   }
+
+   .cardJob {
+      margin: 7px 0;
+
+      @include textEdit(400, 0.875rem, 1.5);
+   }
+
+   .cardLink {
+      @include textEdit(500, 0.875rem, 1.5);
+
+      color: $linkColor;
+
+   }
+}

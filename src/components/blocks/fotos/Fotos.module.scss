@@ -18,13 +18,19 @@
    }
 
    .conteiner {
+      @extend %conteiner;
+
+      @media screen and (min-width:1280px) {
+         padding: 0 70px;
+      }
+
       .wrap {
          text-align: center;
 
          @media screen and (min-width:768px) {
             border-bottom: 0.5px solid $secondaryColor;
 
-            width: 668px;
+            width: 100%;
             margin: 0 auto;
          }
 
@@ -115,13 +121,28 @@
          }
 
          .showAll {
-            margin: 42px auto 24px;
+            margin: 42px 0 24px 0;
 
-            display: inline-block;
+
             justify-content: center;
 
 
             position: relative;
+
+
+            display: none;
+
+            .btnShow {
+
+               @include textEdit(500, 1.06rem, 1.47);
+
+               color: $linkColor;
+               background-color: $primaryColor;
+            }
+
+            @media screen and (min-width:768px) {
+               display: inline-block;
+            }
 
             @media screen and (min-width:1440px) {
                margin: 37px auto 24px;
@@ -136,8 +157,8 @@
                background-repeat: no-repeat;
                color: $secondaryColor;
                position: absolute;
-               top: 48px;
-               left: -28px;
+               top: 12px;
+               left: -15px;
             }
 
             &::after {
@@ -148,7 +169,7 @@
                background-repeat: no-repeat;
                color: $secondaryColor;
                position: absolute;
-               top: 48px;
+               top: 12px;
                right: -29px;
             }
          }

@@ -3,7 +3,6 @@ import img1 from './../../../assets/img/fotos/img1.png';
 import img2 from './../../../assets/img/fotos/img2.png';
 import img3 from './../../../assets/img/fotos/img3.png';
 import img4 from './../../../assets/img/fotos/img4.png';
-import BtnShow from '../../btnShow/BtnShow';
 
 
 
@@ -25,7 +24,7 @@ function Fotos() {
 
                </div>
                <div className={s.showAll}>
-                  <BtnShow text="Показать все фото" />
+                  <button className={s.btnShow}>Показать все фото</button>
                </div>
             </div>
          </div >
