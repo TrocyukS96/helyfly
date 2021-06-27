@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/TrocyukS96/helyfly/static/css/main.eb4fa5d6.chunk.css",
+    "main.js": "/TrocyukS96/helyfly/static/js/main.57a72753.chunk.js",
+    "main.js.map": "/TrocyukS96/helyfly/static/js/main.57a72753.chunk.js.map",
+    "runtime-main.js": "/TrocyukS96/helyfly/static/js/runtime-main.77a90879.js",
+    "runtime-main.js.map": "/TrocyukS96/helyfly/static/js/runtime-main.77a90879.js.map",
+    "static/css/2.8ce421ba.chunk.css": "/TrocyukS96/helyfly/static/css/2.8ce421ba.chunk.css",
+    "static/js/2.c5335838.chunk.js": "/TrocyukS96/helyfly/static/js/2.c5335838.chunk.js",
+    "static/js/2.c5335838.chunk.js.map": "/TrocyukS96/helyfly/static/js/2.c5335838.chunk.js.map",
+    "static/js/3.72dd24a3.chunk.js": "/TrocyukS96/helyfly/static/js/3.72dd24a3.chunk.js",
+    "static/js/3.72dd24a3.chunk.js.map": "/TrocyukS96/helyfly/static/js/3.72dd24a3.chunk.js.map",
+    "index.html": "/TrocyukS96/helyfly/index.html",
+    "static/css/2.8ce421ba.chunk.css.map": "/TrocyukS96/helyfly/static/css/2.8ce421ba.chunk.css.map",
+    "static/css/main.eb4fa5d6.chunk.css.map": "/TrocyukS96/helyfly/static/css/main.eb4fa5d6.chunk.css.map",
+    "static/js/2.c5335838.chunk.js.LICENSE.txt": "/TrocyukS96/helyfly/static/js/2.c5335838.chunk.js.LICENSE.txt",
+    "static/media/Fotos.module.scss": "/TrocyukS96/helyfly/static/media/arrow-bottom.3980ebe1.svg",
+    "static/media/Reviews.module.scss": "/TrocyukS96/helyfly/static/media/cup.915139ff.svg",
+    "static/media/Main.module.scss": "/TrocyukS96/helyfly/static/media/helimain.1c57d349.png",
+    "static/media/Card.module.scss": "/TrocyukS96/helyfly/static/media/hurt.12a2ea93.svg",
+    "static/media/image.0e7b22db.png": "/TrocyukS96/helyfly/static/media/image.0e7b22db.png",
+    "static/media/img1.243665ec.png": "/TrocyukS96/helyfly/static/media/img1.243665ec.png",
+    "static/media/img2.9f1604de.png": "/TrocyukS96/helyfly/static/media/img2.9f1604de.png",
+    "static/media/img3.2dad2918.png": "/TrocyukS96/helyfly/static/media/img3.2dad2918.png",
+    "static/media/img4.487dd28d.png": "/TrocyukS96/helyfly/static/media/img4.487dd28d.png",
+    "static/media/Schedule.module.scss": "/TrocyukS96/helyfly/static/media/kalendar.b3e06d4d.svg",
+    "static/media/logo.19346497.svg": "/TrocyukS96/helyfly/static/media/logo.19346497.svg",
+    "static/media/owner.6ec0a5dc.png": "/TrocyukS96/helyfly/static/media/owner.6ec0a5dc.png",
+    "static/media/star.b2b09254.svg": "/TrocyukS96/helyfly/static/media/star.b2b09254.svg",
+    "static/media/user1.aecc496a.png": "/TrocyukS96/helyfly/static/media/user1.aecc496a.png",
+    "static/media/user2.dbe6bcc3.png": "/TrocyukS96/helyfly/static/media/user2.dbe6bcc3.png",
+    "static/media/user3.083a6bad.png": "/TrocyukS96/helyfly/static/media/user3.083a6bad.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77a90879.js",
+    "static/css/2.8ce421ba.chunk.css",
+    "static/js/2.c5335838.chunk.js",
+    "static/css/main.eb4fa5d6.chunk.css",
+    "static/js/main.57a72753.chunk.js"
+  ]
+}
